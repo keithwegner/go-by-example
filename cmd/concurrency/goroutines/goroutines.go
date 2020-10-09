@@ -22,6 +22,7 @@ func main() {
 	// This new goroutine will execute concurrently with the calling one.
 	go f("goroutine")
 
+	// You can also start a goroutine for an anonymous function call.
 	go func(msg string) {
 		fmt.Println(msg)
 	}("going")

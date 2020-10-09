@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	//  Here we create an array a that will hold exactly 5 ints.
+	// Here we create an array a that will hold exactly 5 ints.
 	// The type of elements and length are both part of the array’s type.
 	// By default an array is zero-valued, which for ints means 0s.
 	var a [5]int
@@ -16,7 +16,7 @@ func main() {
 
 	fmt.Println("len:", len(a))
 
-	//  Use this syntax to declare and initialize an array in one line.
+	// sUse this syntax to declare and initialize an array in one line.
 	b := [5]int{1, 2, 3, 4, 5}
 	fmt.Println("dcl:", b)
 
