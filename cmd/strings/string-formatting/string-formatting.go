@@ -9,7 +9,7 @@ type point struct {
 	x, y int
 }
 
-var pf = pf
+var pf = fmt.Printf
 
 func main() {
 	p := point{1, 2}

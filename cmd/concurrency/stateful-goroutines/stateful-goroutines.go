@@ -67,7 +67,7 @@ func main() {
 				reads <- read
 				<-read.resp
 				atomic.AddUint64(&readOps, 1)
-				time.Sleep(time.Millisecond)/
+				time.Sleep(time.Millisecond)
 			}
 		}()
 	}
