@@ -1,10 +1,4 @@
 // Regular Expressions
-// Time
-// Epoch
-// Time Formatting / Parsing
-// Random Numbers
-// Number Parsing
-// URL Parsing
 // Reading Files
 // Writing Files
 // Line Filters
