@@ -27,7 +27,7 @@ func main() {
 
 	// Check for errors during Scan. End of file is expected and not reported by Scan as an error.
 	if err := scanner.Err(); err != nil {
-		fmt.Fprintf(os.Stderr, "error", err)
+		fmt.Fprintln(os.Stderr, "error", err)
 		os.Exit(1)
 	}
 

@@ -19,7 +19,7 @@ type Plant struct {
 }
 
 func (p Plant) String() string {
-	return fmt.Sprint("Plant id=%v, name=%v, origin=%v", p.Id, p.Name, p.Origin)
+	return fmt.Sprintf("Plant id=%v, name=%v, origin=%v", p.Id, p.Name, p.Origin)
 }
 
 func main() {

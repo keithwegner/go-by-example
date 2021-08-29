@@ -38,7 +38,7 @@ func TestIntMinTableDrivenTest(t *testing.T) {
 		want int
 	}{
 		{0, 1, 0},
-		{1, 0, 1}, // stick a failure here
+		{1, 0, 0},
 		{2, -2, -2},
 		{0, -1, -1},
 		{-1, 0, -1},
@@ -61,7 +61,7 @@ func TestIntMinTableDrivenSubtest(t *testing.T) {
 		want int
 	}{
 		{0, 1, 0},
-		{1, 0, 1}, // stick a failure here
+		{1, 0, 0},
 		{2, -2, -2},
 		{0, -1, -1},
 		{-1, 0, -1},
